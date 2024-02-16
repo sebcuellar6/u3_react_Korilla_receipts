@@ -1,5 +1,7 @@
 ### SEIR 0911
 
+![koreanTacos](https://www.foodnetwork.com/content/dam/images/food/fullset/2014/4/16/0/DV1906H_Korean-Bulgogi-Taco-Recipe_s4x3.jpg)
+
 # Korilla React Receipts
 
 Korilla is a Korean barbecue taco truck that makes thousands of hungry customers
