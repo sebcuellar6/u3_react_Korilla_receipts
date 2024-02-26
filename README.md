@@ -79,7 +79,7 @@ const receipts = [
   },
   {
     id: 4,
-    person: 'John',
+    person: 'Jessica',
     order: {
       main: 'Burrito Bowl',
       protein: 'Carnitas',
