@@ -27,6 +27,8 @@ Build a prototype of this short order receipts tracker.
 Follow the walkthrough and finish all parts. If you have extra time, finish the
 bonus as well.
 
+Make sure there is a .gitignore file in your root directory with /node_modules within, so that you aren't pushing all 15k files up when you do your git commands
+
 ## Part 1: Sample Receipts
 
 You'll be rendering some sample receipts:
