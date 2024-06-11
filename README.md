@@ -1,4 +1,4 @@
-### SEBR 0116
+### SEBR 0429
 
 # Korilla React Receipts
 
@@ -71,7 +71,7 @@ const receipts = [
     order: {
       main: 'Salad Bowl',
       protein: 'Organic Tofu',
-      rice: 'none',
+      rice: null,
       sauce: "K'lla",
       toppings: ['Blue Potato Salad', 'Pico De Gallo', 'Red Kimchi'],
       drink: 'Sparkling Blood Orange Soda',
@@ -85,7 +85,7 @@ const receipts = [
     order: {
       main: 'Burrito Bowl',
       protein: 'Carnitas',
-      rice: 'yellow rice',
+      rice: null,
       sauce: "Jalapeno Honey",
       toppings: ['Grilled Corn', 'Pico De Gallo', 'Guacamole'],
       drink: 'Pineapple Jarritos',
@@ -107,6 +107,20 @@ const receipts = [
     },
     paid: true,
   },
+  {
+    id: 6,
+    person: 'Frank',
+    order: {
+      main: 'Taco Bowl',
+      protein: 'Barbacoa',
+      rice: 'yellow rice',
+      sauce: null,
+      toppings: null,
+      drink: 'Mexican Coca Cola',
+      cost: 19,
+    },
+    paid: false,
+  },
 ];
 ```
 
@@ -120,6 +134,8 @@ Make a Receipt component that maps and renders the following data from the recei
   - sauce
   - drink
   - cost
+
+Make sure to set up a conditional to control if someone has opted to skip an option ('null' for the value)
 
 **Optional:** render the toppings
 
