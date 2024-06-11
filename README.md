@@ -93,10 +93,24 @@ const receipts = [
     },
     paid: true,
   },
+{
+    id: 5,
+    person: 'Sophie',
+    order: {
+      main: 'Burrito Bowl',
+      protein: 'Birria',
+      rice: 'white rice',
+      sauce: "Hot Honey",
+      toppings: ['Grilled Corn', 'Mango Salsa', 'Guacamole'],
+      drink: 'Tamarind Jarritos',
+      cost: 23,
+    },
+    paid: true,
+  },
 ];
 ```
 
-Make a Receipt component that renders the following data from the receipt:
+Make a Receipt component that maps and renders the following data from the receipt:
 
 - person
 - order
@@ -109,8 +123,6 @@ Make a Receipt component that renders the following data from the receipt:
 
 **Optional:** render the toppings
 
-Add two more `Receipt` components so that you get a view like this.  In your App.css file delete the pre-made React styles and begin designing your own
-![korilla receipts rendered Mark](https://i.imgur.com/27V4KW8.png)
 
 ## Part 2: Conditionally render the receipts
 
