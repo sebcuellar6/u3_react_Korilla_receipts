@@ -194,6 +194,7 @@ Make a Receipt component that maps and renders the following data from the recei
   - sauce
   - drink
   - cost
+  - toppings (this may require a nested map!)
  
 Give it a border and some clean style so the company can differentiate between the receipts they see.
 
