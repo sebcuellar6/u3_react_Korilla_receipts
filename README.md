@@ -11,6 +11,8 @@ happy every year.
 
 Their CEO is thinking of updating their short order tracking system using React.
 
+Looking for promising, younge React Developers, they've decided to contract you out to help build up their app.
+
 Build a prototype of this short order receipts tracker.
 
 ## Prerequisites
@@ -22,14 +24,14 @@ Build a prototype of this short order receipts tracker.
 1. Fork and clone this repository.
 1. Create a new React App
 1. Fulfill the listed requirements.
-1. Add, Commit, and Push to Github
 
 ## Requirements
 
 Follow the walkthrough and finish all parts. If you have extra time, finish the
 bonus as well.
 
-Make sure there is a .gitignore file in your root directory with /node_modules within, so that you aren't pushing all 15k files up when you do your git commands
+How you want your app to be structured (# of components, where data is being stored, props being passed) is completely up to *you* choose. A way that you feel will be the cleanest to work with, that you can accomplish, and challenge yourself with
+
 
 ## Part 1: Sample Receipts
 
@@ -49,6 +51,7 @@ const receipts = [
       drink: 'Thai Iced Tea',
       cost: 22,
     },
+    isVegatarian: false,
     paid: false,
   },
   {
@@ -63,6 +66,7 @@ const receipts = [
       drink: 'Korchata',
       cost: 19,
     },
+    isVegatarian: false,
     paid: false,
   },
   {
@@ -77,6 +81,7 @@ const receipts = [
       drink: 'Sparkling Blood Orange Soda',
       cost: 20,
     },
+    isVegatarian: true,
     paid: false,
   },
   {
@@ -91,6 +96,7 @@ const receipts = [
       drink: 'Pineapple Jarritos',
       cost: 23,
     },
+    isVegatarian: false,
     paid: true,
   },
 {
@@ -105,6 +111,7 @@ const receipts = [
       drink: 'Tamarind Jarritos',
       cost: 23,
     },
+    isVegatarian: false,
     paid: true,
   },
   {
@@ -119,7 +126,38 @@ const receipts = [
       drink: 'Mexican Coca Cola',
       cost: 19,
     },
+    isVegatarian: false,
     paid: false,
+  },
+{
+    id: 7,
+    person: 'Dennis',
+    order: {
+      main: 'Burrito Bowl',
+      protein: 'Tofu',
+      rice: 'white rice',
+      sauce: 'jalapeno honey',
+      toppings: null,
+      drink: null,
+      cost: 15,
+    },
+    isVegatarian: true,
+    paid: false,
+  },
+{
+    id: 8,
+    person: 'Charlie',
+    order: {
+      main: 'Burrito',
+      protein: 'Tofu',
+      rice: 'yellow rice',
+      sauce: null,
+      toppings: ['guacamole', 'pico de gallo', 'red onion',
+      drink: 'lime jarritos',
+      cost: 18,
+    },
+    isVegatarian: true,
+    paid: true,
   },
 ];
 ```
@@ -134,17 +172,21 @@ Make a Receipt component that maps and renders the following data from the recei
   - sauce
   - drink
   - cost
+ 
+Give it a border and some clean style so the company can differentiate between the receipts they see.
 
 Make sure to set up a conditional to control if someone has opted to skip an option ('null' for the value)
+
+If an order is Vegetarian, put some kind of note on the card. This can be a green "V", or any other logo or design of your choosing
 
 **Optional:** render the toppings
 
 
 ## Part 2: Conditionally render the receipts
 
-Right now, all the receipts are not paid.
+Only some of the receipts are paid.
 
-Modify App.js to only render a component if the receipt
+Modify your componenent to only render a component if the receipt
 has not been paid.
 
 Then go into the receipt data and change a paid value to true, then verify that
