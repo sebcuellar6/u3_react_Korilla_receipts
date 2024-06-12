@@ -46,7 +46,7 @@ const receipts = [
       main: 'Burrito',
       protein: 'Skirt Steak',
       rice: 'Purple Rice',
-      sauce: 'Green Crack',
+      sauce: 'Green Habanero',
       toppings: ['Baby Bok Choy', 'Cucumber Kimchi'],
       drink: 'Thai Iced Tea',
       cost: 22,
@@ -152,13 +152,28 @@ const receipts = [
       protein: 'Tofu',
       rice: 'yellow rice',
       sauce: null,
-      toppings: ['guacamole', 'pico de gallo', 'red onion',
+      toppings: ['guacamole', 'pico de gallo', 'red onion'],
       drink: 'lime jarritos',
       cost: 18,
     },
     isVegatarian: true,
     paid: true,
   },
+{
+    id: 9,
+    person: 'Mac',
+    order: {
+      main: 'Taco Bowl',
+      protein: 'Carnitas',
+      rice: 'Purple rice',
+      sauce: 'Red Hot',
+      toppings: ['guacamole', 'Pineapple Slaw'],
+      drink: null,
+      cost: 19,
+    },
+    isVegatarian: false,
+    paid: false,
+  }
 ];
 ```
 
