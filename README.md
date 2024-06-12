@@ -50,8 +50,8 @@ const receipts = [
       toppings: ['Baby Bok Choy', 'Cucumber Kimchi'],
       drink: 'Thai Iced Tea',
       cost: 22,
+     isVegatrian: false
     },
-    isVegatarian: false,
     paid: false,
   },
   {
@@ -65,8 +65,9 @@ const receipts = [
       toppings: ['Yuzu Pickled Sweet Pepper', 'Kale'],
       drink: 'Korchata',
       cost: 19,
+     isVegatarian: false,
     },
-    isVegatarian: false,
+    
     paid: false,
   },
   {
@@ -80,8 +81,8 @@ const receipts = [
       toppings: ['Blue Potato Salad', 'Pico De Gallo', 'Red Kimchi'],
       drink: 'Sparkling Blood Orange Soda',
       cost: 20,
+     isVegatarian: true
     },
-    isVegatarian: true,
     paid: false,
   },
   {
@@ -95,8 +96,9 @@ const receipts = [
       toppings: ['Grilled Corn', 'Pico De Gallo', 'Guacamole'],
       drink: 'Pineapple Jarritos',
       cost: 23,
+    isVegatarian: false
     },
-    isVegatarian: false,
+    
     paid: true,
   },
 {
@@ -110,8 +112,9 @@ const receipts = [
       toppings: ['Grilled Corn', 'Mango Salsa', 'Guacamole'],
       drink: 'Tamarind Jarritos',
       cost: 23,
+     isVegatarian: false
     },
-    isVegatarian: false,
+    
     paid: true,
   },
   {
@@ -124,9 +127,10 @@ const receipts = [
       sauce: null,
       toppings: null,
       drink: 'Mexican Coca Cola',
+      isVegatarian: false,
       cost: 19,
     },
-    isVegatarian: false,
+    
     paid: false,
   },
 {
@@ -140,8 +144,9 @@ const receipts = [
       toppings: null,
       drink: null,
       cost: 15,
+isVegatarian: true
     },
-    isVegatarian: true,
+    
     paid: false,
   },
 {
@@ -154,9 +159,10 @@ const receipts = [
       sauce: null,
       toppings: ['guacamole', 'pico de gallo', 'red onion'],
       drink: 'lime jarritos',
-      cost: 18,
+isVegatarian: true,
+      cost: 18
     },
-    isVegatarian: true,
+    
     paid: true,
   },
 {
@@ -170,8 +176,9 @@ const receipts = [
       toppings: ['guacamole', 'Pineapple Slaw'],
       drink: null,
       cost: 19,
+ isVegatarian: false
     },
-    isVegatarian: false,
+   
     paid: false,
   }
 ];
