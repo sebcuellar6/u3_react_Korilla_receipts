@@ -50,7 +50,7 @@ const receipts = [
       toppings: ['Baby Bok Choy', 'Cucumber Kimchi'],
       drink: 'Thai Iced Tea',
       cost: 22,
-     isVegatrian: false
+     isVegetrian: false
     },
     paid: false,
   },
@@ -65,7 +65,7 @@ const receipts = [
       toppings: ['Yuzu Pickled Sweet Pepper', 'Kale'],
       drink: 'Korchata',
       cost: 19,
-     isVegatarian: false,
+     isVegetarian: false,
     },
     
     paid: false,
@@ -81,7 +81,7 @@ const receipts = [
       toppings: ['Blue Potato Salad', 'Pico De Gallo', 'Red Kimchi'],
       drink: 'Sparkling Blood Orange Soda',
       cost: 20,
-     isVegatarian: true
+     isVegetarian: true
     },
     paid: false,
   },
@@ -96,7 +96,7 @@ const receipts = [
       toppings: ['Grilled Corn', 'Pico De Gallo', 'Guacamole'],
       drink: 'Pineapple Jarritos',
       cost: 23,
-    isVegatarian: false
+    isVegetarian: false
     },
     
     paid: true,
@@ -112,7 +112,7 @@ const receipts = [
       toppings: ['Grilled Corn', 'Mango Salsa', 'Guacamole'],
       drink: 'Tamarind Jarritos',
       cost: 23,
-     isVegatarian: false
+     isVegetarian: false
     },
     
     paid: true,
@@ -127,7 +127,7 @@ const receipts = [
       sauce: null,
       toppings: null,
       drink: 'Mexican Coca Cola',
-      isVegatarian: false,
+      isVegetarian: false,
       cost: 19,
     },
     
@@ -144,7 +144,7 @@ const receipts = [
       toppings: null,
       drink: null,
       cost: 15,
-isVegatarian: true
+     isVegetarian: true
     },
     
     paid: false,
@@ -159,7 +159,7 @@ isVegatarian: true
       sauce: null,
       toppings: ['guacamole', 'pico de gallo', 'red onion'],
       drink: 'lime jarritos',
-isVegatarian: true,
+      isVegetarian: true,
       cost: 18
     },
     
@@ -176,7 +176,7 @@ isVegatarian: true,
       toppings: ['guacamole', 'Pineapple Slaw'],
       drink: null,
       cost: 19,
- isVegatarian: false
+      isVegetarian: false
     },
    
     paid: false,
