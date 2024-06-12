@@ -11,7 +11,7 @@ happy every year.
 
 Their CEO is thinking of updating their short order tracking system using React.
 
-Looking for promising, younge React Developers, they've decided to contract you out to help build up their app.
+Looking for promising, young React Developers, they've decided to contract you out to help build up their app.
 
 Build a prototype of this short order receipts tracker.
 
